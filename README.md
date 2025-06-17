@@ -9,6 +9,15 @@ The converter supports both mainnet and testnet:
 
 <img width="780" alt="3dpass-evm-address-converter-min" src="https://github.com/user-attachments/assets/a2cd0011-1e99-4065-9137-17c4d8fc7864" />
 
+### Install 
+```
+pnpm install
+```
+
+### Run
+```
+pnpm start
+```
 
 ## Address Mapping
 
