@@ -233,6 +233,15 @@ footer svg {
   padding: 1rem 0;
 }
 
+.header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem 0;
+}
+
 .github-footer {
   position: fixed;
   bottom: 0;
@@ -256,6 +265,7 @@ footer svg {
 
 .github-link:hover {
   opacity: 0.8;
+  text-decoration: underline;
 }
 
 .github-link svg {

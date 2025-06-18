@@ -11,8 +11,8 @@ interface NetworkOption {
 }
 
 const NETWORKS: NetworkOption[] = [
-  { name: "3dpass - The Ledger of Things Mainnet", prefix: 71 },
-  { name: "3dpass - The Ledger of Things Testnet", prefix: 72 }
+  { name: "The Ledger of Things Mainnet", prefix: 71 },
+  { name: "The Ledger of Things Testnet", prefix: 72 }
 ];
 
 function App() {
@@ -66,7 +66,7 @@ function App() {
       <header className="App-header">
         <div className="header-top">
           <img src={logo} className="App-logo" alt="logo" />
-          <a
+         <a
             href="https://github.com/3Dpass/3dpass-evm-address-converter"
             target="_blank"
             rel="noopener noreferrer"
@@ -154,6 +154,15 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="header-bottom">
+          <a href="https://3dpass.org/mainnet#metamask"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="github-link"
+           >
+             How to use?
+          </a>
+          </div>
       </header>
     </div>
   );
